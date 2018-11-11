@@ -1,0 +1,17 @@
+package chainOfResponsibility;
+
+public class MultNumbers implements Chain {
+
+	@Override
+	public void setNextChain(Chain nextChain) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public double calculate(Numbers requests) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
